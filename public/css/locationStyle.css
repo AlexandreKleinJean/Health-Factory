@@ -1,0 +1,134 @@
+/*-------------------------------HEADER---------------------------------*/
+  
+  #header-banner { 
+    background-image: url(../img/location.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    color: white;
+    position:relative;
+  }
+
+/*-------------------------LOCATIONS-------------------------------*/
+
+  .location{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding: 7% 5%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .location__left{
+    display: flex;
+    justify-content: right;
+    }
+  
+  .location__left-img{
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+    }
+  
+  .location__right{
+    background-color: white;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 50%;
+    padding: 3% 5%;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    }
+  
+  #location__right-title{
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+  }
+  
+  #location__right-text{
+    padding: 5% 0;
+    line-height: 150%;
+    margin-bottom: 5%;
+  }
+
+  #strong{
+    font-weight: bold;
+  }
+  
+  .location__right-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .location__right-logo-img{
+    width: 10%;
+  }
+  
+  .location__right-logo-title{
+    font-size: 1rem;
+    padding: 5% 0;
+  }
+  
+  @media (max-width : 1000px) {
+
+    .location__left-img{
+        border-right: 1px solid grey;
+        border-bottom-right-radius: 5%;
+        border-top-right-radius: 5%;
+        }
+
+    .location__right{
+        border-left: 1px solid grey;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    }
+
+    #location__right-title{
+      font-size: 2,2rem;
+      margin-bottom: 10%;
+      }   
+  
+    #location__right-text{
+      padding: 5% 0;
+      line-height: 100%;
+      margin-bottom: 10%;
+      }
+  
+  }     
+  
+  @media (max-width : 900px) {
+  
+    .location{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      height: 80%;
+    }
+  
+    .location__right{
+      margin-top: 5%;
+      width: 100%;
+      }
+  
+    #location__right-title{
+      font-size: 2rem;
+      margin-bottom: 0;
+      }   
+  
+    #location__right-text{
+      line-height: 100%;
+      margin-bottom: 0;
+      }
+  
+    .location__right-logo-title{
+      font-size: 1rem;
+      padding: 0;
+      }
+  }  

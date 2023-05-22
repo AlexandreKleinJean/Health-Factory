@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS "testbdd";
+
+CREATE TABLE IF NOT EXISTS "testbdd" (
+  "id" SERIAL PRIMARY KEY,
+  "name" TEXT,
+  "statut" TEXT,
+  "age" REAL
+);
+
+INSERT INTO "testbdd" ("id", "name", "statut", "age") VALUES 
+(1, 'James', 'director', '48'),
+(2, 'John', 'coach', '36'),
+(3, 'Mike', 'receptionnist', '31');

@@ -1,0 +1,25 @@
+/*-------------------------------HEADER---------------------------------*/
+  
+#header-banner { 
+    background-image: url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    color: white;
+    position:relative;
+  }
+
+  /*---------------------------CONTACT FORM-----------------------*/
+
+.filledForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    margin: 5% 20%;
+    padding: 2% 2%;
+    background-color: whitesmoke;
+    border:1px solid black;
+  }

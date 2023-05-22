@@ -1,0 +1,89 @@
+/*-------------------------------HEADER---------------------------------*/
+  
+#header-banner { 
+    background-image: url(../img/activities.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70vh;
+    color: white;
+    position:relative;
+  }
+
+/*---------------------------ACTIVITIES ARTICLES-----------------------*/
+
+.activities {
+    background-color: white;
+    margin: 5% 8%;
+    justify-content: center;
+  }
+  
+  .activity-pair, .activity-impair {
+    background-color: white;
+    width: 100%;
+    margin: 3% 1%;
+    display: flex;
+    border-radius: 5px;
+  }
+  
+  .activity__1, .activity__2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  
+  .activity__img{
+    height : 100%;
+    border-radius: 5%;
+  }
+  
+  .activity__title{
+    margin: 1% 2%;
+    padding-bottom: 7%;
+    font-size: 180%;
+    font-weight: bold;
+  }
+  
+  .activity__text{
+    font-size: 120%;
+    margin: 1% 5% ;
+    text-align: center;
+  }
+  
+  @media (max-width : 900px) {
+    .activity{
+      width: 80%;
+      margin: 3% 5%;
+    }
+  
+    .activities {
+      text-align: center;
+    }
+
+    .activity-pair{
+      flex-direction: column;
+    }
+
+    .activity-impair{
+      flex-direction: column-reverse;
+    }
+
+    .activity__1, .activity__2{
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .activity__title{
+      padding-top: 8%;
+      padding-bottom: 2%;
+      font-size: 180%;
+    }
+    
+    .activity__text{
+      font-size: 110%;
+      margin-bottom: 5%;
+    }
+  
+        }

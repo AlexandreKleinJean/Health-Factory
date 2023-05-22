@@ -1,0 +1,90 @@
+/*--------------------------------HEADER---------------------------*/
+
+#header-banner { 
+    background-image: url(../img/Fitness.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    color: white;
+    position:relative;
+  }
+
+/*---------------------------ACTIVITIES ARTICLES-----------------------*/
+
+.articles {
+    background-color: rgb(218, 214, 214);
+    padding: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .article {
+    background-color: white;
+    width: 40%;
+    margin: 1% 1%;
+    display: flex;
+    border-radius: 5px;
+  }
+  
+  .article__left{
+    width: 55%;
+    padding: 2%;
+  }
+  
+  .article__right{
+    width: 45%;
+  }
+  
+  .article__right-img{
+    height : 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .article__left-title{
+    margin: 1% 2%;
+    padding-bottom: 7%;
+    font-size: 150%;
+    font-weight: bold;
+  }
+  
+  .article__left-text{
+    font-size: 80%;
+    margin: 1% 2% ;
+  }
+
+  #activities__btn{
+    margin-top: 4%;
+    width:50vw;
+    display: flex;
+    justify-content: center;
+    color:black;
+  }
+
+#activities__btn:hover{
+    text-decoration: underline;
+  }
+  
+  @media (max-width : 900px) {
+    .article{
+      width: 80%;
+      margin: 3% 5%;
+    }
+  
+    .articles {
+      text-align: center;
+    }
+  
+    .article__left-title{
+      padding-top: 6%;
+      padding-bottom: 8%;
+      font-size: 180%;
+    }
+    
+    .article__left-text{
+      font-size: 110%;
+      margin: 1% 2% ;
+    }
+  
+        }
