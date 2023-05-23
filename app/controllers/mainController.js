@@ -23,11 +23,10 @@ const mainController = {
     },
     
     addMemberTeam: async function(req, res){
-      /*  const form = req.body
-        console.log(form)
-        const result = await dataMapper.addMemberTeam(form);
-      */
-        res.redirect("/staff"/*,{result}*/)
+        //const form = req.body
+        //const result = await dataMapper.addMemberTeam(form);
+      
+        res.redirect("/staff"/*,{result}*/)  
     }
 
 }
