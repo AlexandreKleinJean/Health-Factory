@@ -9,6 +9,4 @@ router.get("/:id", mainController.routes)
 
 router.post("/adminConnection", mainController.adminVerification)
 
-router.post("/modifiedTeam", mainController.addMemberTeam)
-
 module.exports = router;

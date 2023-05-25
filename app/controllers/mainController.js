@@ -1,6 +1,3 @@
-//const dataMapper = require("../dataMapper");
-//"password authentification failed for user "student" "
-
 const mainController = {
 
     accueil(req, res) {
@@ -21,13 +18,6 @@ const mainController = {
             res.redirect("/admin")
             }
     },
-    
-    addMemberTeam: async function(req, res){
-        //const form = req.body
-        //const result = await dataMapper.addMemberTeam(form);
-      
-        res.redirect("/staff"/*,{result}*/)  
-    }
 
 }
 
