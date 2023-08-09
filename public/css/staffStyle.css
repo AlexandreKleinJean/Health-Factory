@@ -2,11 +2,7 @@
   
 #header-banner { 
     background-image: url(../img/staff.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:70vh;
-    color: white;
-    position:relative;
+    background-position: 12% 50%;
   }
 
 /*---------------------------STAFF-----------------------*/

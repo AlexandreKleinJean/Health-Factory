@@ -2,11 +2,8 @@
   
 #header-banner { 
     background-image: url(../img/activities.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 40% 50%;
     height:70vh;
-    color: white;
-    position:relative;
   }
 
 /*---------------------------ACTIVITIES ARTICLES-----------------------*/
@@ -85,5 +82,4 @@
       font-size: 110%;
       margin-bottom: 5%;
     }
-  
-        }
+  }

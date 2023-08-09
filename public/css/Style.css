@@ -2,12 +2,40 @@
 
 #header-banner { 
     background-image: url(../img/Fitness.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: 10% 70%;
     height:100vh;
-    color: white;
-    position:relative;
   }
+
+@media (max-width: 767px) {
+  
+  #menu {
+    height: 65vh;
+    top: 80%;
+  }
+  
+  .menu__item{
+    height: 5rem;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  
+  #menu__activities{
+    margin-top:0;
+  }
+  
+  #banner__text-title{
+    display:none;
+  } 
+}
+
+/*--------------------------------------MAIN------------------------------------------*/
+
+@media (max-width: 767px) {
+  .content{
+    display:none;
+  }
+}
 
 /*---------------------------ACTIVITIES ARTICLES-----------------------*/
 
@@ -87,4 +115,12 @@
       margin: 1% 2% ;
     }
   
-        }
+}
+
+/*--------------------------------------FOOTER------------------------------------------*/
+
+@media (max-width: 767px) {
+  .totalFooter{
+    display:none;
+  }
+}
