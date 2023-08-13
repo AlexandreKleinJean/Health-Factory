@@ -17,7 +17,7 @@
 }
 
 .move__logo{ 
-  background-color: rgb(199, 20, 20);
+  background-color: rgba(190, 75, 45, 1);
   padding: 1% 1%;
   width: 40%;
   height : 15%;
@@ -49,7 +49,7 @@
 }
 
 .move__item:hover{ 
-  background-color:rgb(199, 20, 20);
+  background-color: rgba(190, 75, 45, 1);
   } 
 
 @media (max-width : 1400px) {
@@ -134,7 +134,7 @@
 }
 
 #banner__logo{ 
-  background-color: rgb(199, 20, 20);
+  background-color: rgba(190, 75, 45, 1);
   padding: 1% 1%;
   width: 40%;
   height : 15%;
@@ -203,23 +203,20 @@
   background-color: rgba(245,245,245,0.4);
 }
 
-#banner__join{
- position: absolute;
- bottom: 10%;
- left: 10%;
- background-color: rgb(199, 20, 20);
- color: white;
- font-size: 1.2rem;
- font-weight: bold;
- padding: 2% 2%;
- border-radius: 33%;
- border: none;
- text-shadow: rgb(14, 13, 13) 1px 0 10px;
+#banner__btn{
+  display:none;
+  position: absolute;
+  bottom: 20%;
+  left: 20%;
+  background-color: rgba(190, 75, 45, 1);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5% 5%;
+  border-radius: 3rem;
+  border: none;
+  text-shadow: rgb(14, 13, 13) 1px 0 10px;
 }
-
-#banner__join:hover{
-  transform:scale(1.1)
- }
 
 @media (max-width : 1400px) {
 
@@ -348,6 +345,10 @@
   #banner__text-title{
     display:none;
   }
+
+  #banner__btn{
+    display:flex;
+  }
   
 }
 
@@ -393,35 +394,133 @@
   .footer__links {
     display: flex;
     justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 90vw;
+  }
+
+  .footer__logo{ 
+    background-color: rgba(190, 75, 45, 1);
+    padding: 1% 2%;
+    width: 60%;
+    height : 15%;
+    margin: 2% 2%;
+    margin-right: 3%;
+    text-align: center;
+    white-space: nowrap;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+  }
+  
+  #footer__logo-1 { 
+    padding: 5% 1%;
+    font-size: 150%;
+    text-shadow: rgb(14, 13, 13) 1px 0 10px;
+  }
+  
+  #footer__logo-2{
+    padding: 1% 1%;
+    font-size: 90%;
+    color: black;
   }
   
   .footer__link {
-    padding: 2% 2%;
+    width: 70%;
+    margin: 2.5% 2%;
     font-size: 1.3rem;
     white-space: nowrap;
+  }
+
+  #footer__link-socialMedia{
+    display: flex;
+    flex-direction: column;
   }
   
   .footer__link-title {
     color: grey;
     font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .footer__link-title:hover {
-    text-shadow: 1px 0 10px rgb(163, 162, 162);
+    margin-bottom: 3%;
   }
   
   .footer__link-text {
     color: white;
-    font-weight: bold;
-    margin-bottom: 5%;
-  }
-  
-  .footer__link-text:hover {
-    text-shadow: 1px 0 10px white;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
   }
   
   .last {
     text-align: center;
     padding: 2% auto;
+    font-size: 1.3rem;
+  }
+
+  @media (max-width : 1150px) {
+
+    #footer__logo-1 { 
+      font-size: 140%;
+    }
+    
+    #footer__logo-2{
+      font-size: 70%;
+    }
+
+    .footer__link {
+      font-size: 1rem;
+    }
+
+    .footer__link-text {
+      font-size: 0.8rem;
+    }
+
+    .last {
+      font-size: 1.1rem;
+    }
+   
+  }
+        
+  @media (max-width : 900px) {
+
+    #footer__logo-1 { 
+      font-size: 130%;
+    }
+    
+    #footer__logo-2{
+      font-size: 60%;
+    }
+
+    .footer__link {
+      font-size: 1rem;
+    }
+
+    .footer__link-text {
+      font-size: 0.8rem;
+    }
+
+    .last {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+
+    #footer__logo-1 { 
+      font-size: 110%;
+    }
+    
+    #footer__logo-2{
+      font-size: 50%;
+    }
+
+    .footer__link {
+      font-size: 0.8rem;
+    }
+
+    .footer__link-text {
+      font-size: 0.6rem;
+    }
+  
+    .last {
+      font-size: 0.8rem;
+    }
+    
   }
