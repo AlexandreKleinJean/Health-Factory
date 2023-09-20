@@ -1,19 +1,16 @@
 /*-----------------------------Navigation on movment--------------------*/
-.moveDefault{
-  display: none;
-}
-
-.moveAppears{ 
-  transition: 500ms;
+#move{ 
   position: fixed;
   display: flex;
+  opacity:0;
   text-align: center;
   align-items: center;
   background-color: black;
   color: white;
   top:0;
+  padding: 1% 5%;
   width: 100%;
-  padding: 2.7% 5%;
+  transition: opacity 500ms ease;
 }
 
 .move__logo{ 
@@ -40,12 +37,12 @@
 
 .move__menu{
   padding: 0 2%;
-  width: 120%;
+  width: 100%;
   font-size: 150%;
 }
 
 .move__item{
-  margin: 0 4%;
+  padding: 7% 4%;
 }
 
 .move__item:hover{ 

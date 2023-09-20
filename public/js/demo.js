@@ -4,10 +4,10 @@ console.log(navigation)
 
 window.addEventListener("scroll", () => { 
     if(window.scrollY>500){ 
-        navigation.classList.add("moveAppears")
+        navigation.style.opacity = "1";
         }
     if(window.scrollY<500){ 
-        navigation.classList.remove("moveAppears")
+        navigation.style.opacity = "0";
         }
     })
 
