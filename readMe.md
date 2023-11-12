@@ -2,7 +2,7 @@
 
 **Health Factory** est un site web de studio de fitness qui propose une variété d'activités pour vous aider à atteindre vos objectifs de remise en forme. Que vous soyez un passionné de fitness ou que vous recherchiez simplement un lieu pour vous entraîner, Health Factory vous couvre.
 
-![Aperçu du site Health Factory](./README.png)
+![Aperçu du site Health Factory](https://github.com/AlexandreKleinJean/Health-Factory/assets/127552834/bf5edab9-9994-440f-bf05-628840d73e20)
 
 ## Fonctionnalités principales
 
