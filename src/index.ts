@@ -1,10 +1,10 @@
 import express from "express";
 const PORT: number = 8888;
-import router from '../src/app/router';
+import router from './app/router';
 const app = express()
 
 app.set("view engine", "ejs")
-app.set("views","./app/views")
+app.set("views","./views")
 
 app.use(express.static("./public"));
 

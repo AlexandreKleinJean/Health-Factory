@@ -7,6 +7,6 @@ router.get("/:id", mainController.routes)
 
 //router.get("/admin/adminConnection", mainController.adminConnection)
 
-// router.post("/adminConnection", mainController.adminVerification)
+//router.post("/adminConnection", mainController.adminVerification)
 
 export default router;
