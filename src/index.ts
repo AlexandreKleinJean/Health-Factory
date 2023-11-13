@@ -1,6 +1,6 @@
-const express = require("express")
-const PORT = 8888
-const router = require('./app/router');
+import express from "express";
+const PORT: number = 8888;
+import router from '../src/app/router';
 const app = express()
 
 app.set("view engine", "ejs")
